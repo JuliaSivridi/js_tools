@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Small tools > Dates</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.7.1.min.js"></script>
+    <script src="guide.js"></script>
+    <script src="dates.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="site-title">Dates</div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="text.html">text</a></li>
+                <li><a href="numbers.html">numbers</a></li>
+                <li><a href="dates.html">[dates]</a></li>
+            </ul>
+        </nav>
+
+        <div id="wrapper">
+            <div id="div_process">
+                <label for="bday">your birthdate:</label> <input id="bday" type="date"></input><br><br>
+                <p>You have lived for:</p>
+                <label for="life_seconds">seconds:</label> <input id="life_seconds" disabled></input><br>
+                <label for="life_minutes">minutes:</label> <input id="life_minutes" disabled></input><br>
+                <label for="life_hours">hours:</label> <input id="life_hours" disabled></input><br>
+                <label for="life_days">days:</label> <input id="life_days" disabled></input><br>
+                <label for="life_weeks">weeks:</label> <input id="life_weeks" disabled></input><br>
+                <label for="life_months">months:</label> <input id="life_months" disabled></input><br>
+                <label for="life_yesrs">yesrs:</label> <input id="life_yesrs" disabled></input><br>
+            </div>
+            <div id="show_guide" title="Show guide">[?]</div>
+            <div id="div_guide">
+                This tool helps you calculate how long you have lived based on your birthdate.<br>
+                Recommended usage:<ul>
+                    <li><b>Select your birthdate</b> using the date picker.</li>
+                    <li>The tool will automatically calculate and <b>display the time you have lived</b> 
+                        in seconds, minutes, hours, days, weeks, months, and years.</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            &copy; Julia Sivridi 2025
+        </footer>
+    </div>
+</body>
+</html>
