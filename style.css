@@ -56,6 +56,7 @@ nav li a:hover {
 }
 
 #wrapper {
+    position: relative;
     width: 100%;
     min-height: 400px;
 }
@@ -63,8 +64,8 @@ nav li a:hover {
 #show_guide {
     display: block;
     position: absolute;
-    left: 790px;
-    top: 160px;
+    left: 750px;
+    top: 10px;
     margin: 5px;
     padding: 5px;
     border: dotted 1px #00ff00;
@@ -76,8 +77,8 @@ nav li a:hover {
 #div_guide {
     display: none;
     position: absolute;
-    left: 240px;
-    top: 180px;
+    left: 200px;
+    top: 30px;
     width: 560px;
     margin: 5px;
     padding: 10px;

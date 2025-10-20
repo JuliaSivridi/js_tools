@@ -9,6 +9,6 @@
         $("#life_days").val( Math.floor(diff / (1000 * 60 * 60 * 24)) );
         $("#life_weeks").val( Math.floor(diff / (1000 * 60 * 60 * 24 * 7)) );
         $("#life_months").val( Math.floor(diff / (1000 * 60 * 60 * 24 * 30.44)) );
-        $("#life_yesrs").val( Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25)) );
+        $("#life_years").val( Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25)) );
     });
 });
