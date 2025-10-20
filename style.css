@@ -68,6 +68,11 @@ nav li a:hover {
     float: left;
     margin: 5px;
 }
+#div_numbers, #div_field {
+    float: left;
+    width: 48%;
+    margin: 5px;
+}
 
 textarea, input {
     margin: 3px;
@@ -86,6 +91,27 @@ button {
     color: #0f0;
     background: #000;
     cursor: pointer;
+}
+button.number, #clear, #backspace {
+    width: 60px;
+}
+button.activebase, button:hover {
+    background: #060;
+}
+button:disabled {
+    border-color: #030;
+    background: #000;
+    color: #030;
+    cursor: default;
+}
+
+table {
+    margin: 0 auto;
+    border: 0;
+}
+td {
+    border: 0;
+    text-align: center;
 }
 
 footer{
