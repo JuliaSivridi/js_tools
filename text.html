@@ -4,7 +4,8 @@
 	<title>Small tools > Text</title>
     <meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="jquery-3.7.1.min.js"></script>
+    <script src="guide.js"></script>
     <script src="text.js"></script>
 </head>
 <body>
@@ -22,40 +23,43 @@
             </ul>
         </nav>
 
-        <div id="wrapper"><div id="div_process">
-            <label for="txt_process">your text here:</label> 
-            <button id="txt_process_paste">paste</button>
-            <button id="txt_process_copy">copy</button><br>
-            <textarea id="txt_process" cols=80 rows=14></textarea><br>
+        <div id="wrapper">
+            <div id="div_process">
+                <label for="txt_process">your text here:</label> 
+                <button id="txt_process_paste">paste</button>
+                <button id="txt_process_copy">copy</button><br>
+                <textarea id="txt_process" cols=80 rows=14></textarea><br>
 
-            <button id="space" class="process">- space</button>
-            <button id="punctuation" class="process">- punctuation</button>
-            <button id="brackets" class="process">- brackets</button>
-            <button id="specials" class="process">- specials</button><br>
-            <button id="tolower" class="process">to lower</button>
-            <button id="doubles" class="process">- doubles</button>
-            <button id="numbers" class="process">- numbers</button>
-            <button id="sortaz" class="process">sort A→Z</button>
-            <button id="sortza" class="process">sort Z→A</button>
+                <button id="space" class="process">- space</button>
+                <button id="punctuation" class="process">- punctuation</button>
+                <button id="brackets" class="process">- brackets</button>
+                <button id="specials" class="process">- specials</button><br>
+                <button id="tolower" class="process">to lower</button>
+                <button id="doubles" class="process">- doubles</button>
+                <button id="numbers" class="process">- numbers</button>
+                <button id="sortaz" class="process">sort A→Z</button>
+                <button id="sortza" class="process">sort Z→A</button>
+            </div>
+            <div id="show_guide" title="Show guide">[?]</div>
+            <div id="div_guide">
+                Sometimes it is useful to create your own vocabulary list from a foreign text.
+                This tool helps you prepare text before building a personal dictionary. 
+                You can:<ol>
+                    <li>Remove <b>extra spaces</b> (tabs, line breaks, double spaces)</li>
+                    <li>Remove <b>punctuation, brackets and special characters</b></li>
+                    <li>Convert text <b>to lowercase</b></li>
+                    <li>Remove <b>duplicate</b> words and <b>numbers</b></li>
+                    <li><b>Sort words</b> alphabetically (A→Z or Z→A)</li>
+                </ol>
+                Recommended usage:<ul>
+                    <li><b>Paste</b> your text into the input field.</li>
+                    <li>Click the buttons to apply the desired <b>operations</b> step by step.</li>
+                    <li>After processing, <b>copy</b> the cleaned text.</li>
+                    <li>The final result can be pasted into a spreadsheet, where you can 
+                        later add translations, notes or word frequency.</li>
+                </ul>
+            </div>
         </div>
-        <div id="div_guide">
-            Sometimes it is useful to create your own vocabulary list from a foreign text.<br>
-            This tool helps you prepare text before building a personal dictionary. 
-            You can:<ol>
-                <li>Remove <b>extra spaces</b> (tabs, line breaks, double spaces)</li>
-                <li>Remove <b>punctuation, brackets and special characters</b></li>
-                <li>Convert text <b>to lowercase</b></li>
-                <li>Remove <b>duplicate</b> words and <b>numbers</b></li>
-                <li><b>Sort words</b> alphabetically (A→Z or Z→A)</li>
-            </ol>
-            Recommended usage:<ul>
-                <li><b>Paste</b> your text into the input field.</li>
-                <li>Click the buttons to apply the desired <b>operations</b> step by step.</li>
-                <li>After processing, <b>copy</b> the cleaned text.</li>
-                <li>The final result can be pasted into a spreadsheet, where you can 
-                    later add translations, notes or word frequency.</li>
-            </ul>
-        </div></div>
 
         <footer>
             &copy; Julia Sivridi 2025
